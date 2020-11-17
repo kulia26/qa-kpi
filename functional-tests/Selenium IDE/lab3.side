@@ -1,0 +1,208 @@
+{
+  "id": "051bb261-a3e3-40bb-90f9-d2d8880618e2",
+  "version": "2.0",
+  "name": "lab3",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "928a90ff-4b67-49d9-8a8e-86a8d9829213",
+    "name": "task1",
+    "commands": [{
+      "id": "b0a05b06-af44-45ee-b1db-1e0388686175",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eea9ee46-a4de-470f-a91c-a5c0b43e7e1c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f16ff00-534f-45a9-8e66-031b6f4e5e90",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com.ua/?hl=ru",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2af13842-08d2-40b5-9e76-dc90706db289",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f55328a0-bbdd-4054-9992-65e40d69251a",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "rozetka"
+    }, {
+      "id": "f4715c75-f879-417d-ace1-6521a79ae5ba",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0ee0ec0f-162d-4e75-b627-937cd8a31389",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc603160-90d2-4210-a871-c365ef487ba7",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .rc .LC20lb > span",
+      "targets": [
+        ["css=div:nth-child(1) > .rc .LC20lb > span", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/a/h3/span", "xpath:idRelative"],
+        ["xpath=//h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'\"Darius Shop\" - контакты, товары, услуги, цены')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73883eec-8cd2-408d-a56a-52bba22fd9cb",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0d85368-cb8d-4c5e-a52c-c0421616c6b4",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59f09b4a-0fbd-4b3e-b6d8-fd8c7d3b8716",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ноутбук Lenovo Legion 5 15IMH05 (82AU00EPRA) Phantom Black "
+    }, {
+      "id": "d5220fe4-6c9b-4627-b227-28493c7c2109",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0759ba15-7f8e-42a7-9592-ba857f9919dd",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9b22408-afc0-45b5-972c-4a1f8bbaf9eb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.product__title",
+      "targets": [
+        ["css=.product__title", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Ноутбук Lenovo Legion 5 15IMH05 (82AU00EPRA) Phantom Black')]", "xpath:innerText"]
+      ],
+      "value": "Ноутбук Lenovo Legion 5 15IMH05 (82AU00EPRA) Phantom Black"
+    }, {
+      "id": "02bf880f-a9be-4232-8774-6ab086e2f996",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Купить')]",
+      "targets": [
+        ["css=.button_with_icon > .buy-button__label", "css:finder"],
+        ["xpath=//app-buy-button/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aeb49ced-2530-4577-9e69-f76e5037a77f",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7151bf1-d173-40c7-bbc4-11787d80d704",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-actions__button_type_basket > svg",
+      "targets": [
+        ["css=.header-actions__button_type_basket > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d0f56aa-a4f9-47ba-9960-a4fbabd0d2f6",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afe8ca22-fb3a-4b2a-b6e5-2139622e7a65",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Ноутбук Lenovo Legion 5 15IMH05 (82AU00EPRA) Phantom Black",
+      "targets": [
+        ["linkText=Ноутбук Lenovo Legion 5 15IMH05 (82AU00EPRA) Phantom Black", "linkText"],
+        ["css=.cart-product__title", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбук Lenovo Legion 5 15IMH05 (82AU00EPRA) Phantom Black')])[4]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/lenovo_82au00epra/p249316371/')])[18]", "xpath:href"],
+        ["xpath=//rz-cart-product/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": "Ноутбук Lenovo Legion 5 15IMH05 (82AU00EPRA) Phantom Black"
+    }]
+  }],
+  "suites": [{
+    "id": "6a0c386a-09d4-4c7b-932d-4b4442217b6a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["928a90ff-4b67-49d9-8a8e-86a8d9829213"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
